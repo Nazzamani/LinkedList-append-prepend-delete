@@ -19,7 +19,7 @@ public class Main {
             linkedList.prepend(scannerPrepend.nextInt());
         }
 
-        //call the deleteWithValue function with user inputs
+        //call the deleteWithValue function with user input
         System.out.println("please enter the number you wanna delete from the list");
         Scanner scannerDelete=new Scanner(System.in);
         linkedList.deleteWithValue(scannerDelete.nextInt());
